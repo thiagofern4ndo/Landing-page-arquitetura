@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    background-color: #303030;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecalho-titulo {
+    padding: 0% 0% 0% 5%;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.cabecalho-texto {
+    padding: 0% 0% 0% 5%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.conteudo-informacional {
+    background-color: #f9f9f9;
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    height: 229px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.conteudo-informacional-dados {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.edicao-numero {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.conteudo-principal {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo-principal-texto {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.edicao-texto {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.rodape {
+    margin-top: 100px;
+    background-color: #303030;
+    height: 638px;
+}
+
+.rodape-subtitulo {
+    padding: 5%;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.rodape-items {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+}
+
+.rodape-formulario{
+
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+}
+.rodape-formulario::placeholder{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.3);
+    border: none;
+    padding-left: 20px;
+}
+.rodape-botao{
+    background-color:  rgba(192, 114, 18, 1);
+    width: 286px;
+    height: 74px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 1);
+   cursor: pointer;
+}
+
+.rodape-botao:hover{
+    background-color:  rgb(216, 146, 60);
+    color: #ffe4ff;
+    transform: translateY(-10px)
+}
