@@ -1,4 +1,4 @@
-Projeto de Landing page desenvolvido no curso Front End da escola DNC.
+Projeto de Landing page
 
 1 Habilidades desenvolvidas ao longo do projeto:
 
